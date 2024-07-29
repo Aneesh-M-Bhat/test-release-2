@@ -7,11 +7,16 @@ catalog:
   resources:
     tasks:
       - name: git
-        version: 0.3.0
+        version: 0.5.0
       - name: git-clone
-        version: 0.3.0
+        version: 0.5.0
     pipelines:
       - name: git
-        version: 0.3.0
+        version: 0.5.0
       - name: git-cli
-        version: 0.3.0
+        version: 0.5.0
+    stepactions:
+      - name: git
+        version: 0.5.0
+      - name: git-cli
+        version: 0.5.0
